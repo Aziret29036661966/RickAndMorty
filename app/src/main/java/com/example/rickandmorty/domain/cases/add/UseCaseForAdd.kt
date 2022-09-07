@@ -6,6 +6,6 @@ import javax.inject.Inject
 
 class UseCaseForAdd @Inject constructor(private val rickAndMortyRepo: RickAndMortyRepo){
 
-    fun addNote(info: CharacterInfo) = rickAndMortyRepo.getCharacter(info)
+    suspend fun addNote(info: CharacterInfo) = rickAndMortyRepo.getCharacter(info)
 
 }
