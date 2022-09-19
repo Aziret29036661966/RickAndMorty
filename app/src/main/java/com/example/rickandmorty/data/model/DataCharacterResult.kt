@@ -6,4 +6,5 @@ data class DataCharacterResult(
     val id: Int = DEFAULT_ID,
     val name : String?=null,
     val status: String?=null,
+    val image : String?=null
 )

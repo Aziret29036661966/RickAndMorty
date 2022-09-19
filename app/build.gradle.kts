@@ -76,6 +76,7 @@ dependencies {
     implementation(Dependencies.Retrofit.retrofit)
     implementation(Dependencies.Retrofit.retrofitGson)
 
-    //Picasso
-    //implementation(Dependencies.Picasso.picasso)
+    //Glide
+    implementation(Dependencies.Glide.glide)
+    annotationProcessor(Dependencies.Glide.glideCompiler)
 }

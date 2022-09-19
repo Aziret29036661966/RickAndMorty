@@ -1,6 +1,6 @@
 package com.example.rickandmorty.data.di
 
-import com.example.rickandmorty.data.api.RickAndMorty
+import com.example.rickandmorty.data.service.RickAndMorty
 import com.example.rickandmorty.data.repository.RickAndMortyApiImpl
 import com.example.rickandmorty.domain.repository.RickAndMortyRepo
 import com.example.rickandmorty.utils.const.MY_URL

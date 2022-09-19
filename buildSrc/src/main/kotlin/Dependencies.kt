@@ -55,7 +55,8 @@ object Dependencies {
         const val retrofit = "com.squareup.retrofit2:retrofit:2.5.0"
         const val retrofitGson= "com.squareup.retrofit2:converter-gson:2.5.0"
     }
-    object Picasso{
-       const val picasso = "com.squareup.picasso:picasso:2.1.2"
+    object Glide{
+        const val glide = "com.github.bumptech.glide:glide:4.13.2"
+        const val glideCompiler = "com.github.bumptech.glide:compiler:4.13.2"
     }
 }
